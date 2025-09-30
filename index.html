@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de bhaskara</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <h1>
+      calculadora de bhaskara
+    </h1>
+
+
+    <style>
+      #Formulario {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        /* Define uma largura opcional */
+        gap: 10px;
+        /* Espaço entre os campos */
+        margin: 20px auto;
+        /* Centraliza na tela */
+      }
+
+      input,
+      button {
+        padding: 10px;
+        font-size: 16px;
+      }
+    </style>
+    <form id="Formulario">
+      <input type="number" id="a" placeholder="a" step="any" required="">
+      <input type="number" id="b" placeholder="b" step="any" required="">
+      <input type="number" id="c" placeholder="c" step="any" required="">
+      <button type="submit">Calcular</button>
+    </form>
+
+
+
+    <p id="delta"></p>
+    <p id="x1"></p>
+    <p id="x2"></p>
+  </body>
+
+</html>
